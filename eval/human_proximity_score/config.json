@@ -1,0 +1,27 @@
+{
+  "model_id": "biohub/ESMC-600M",
+  "normalization": "mean_pool_then_l2",
+  "group_names": [
+    "Human",
+    "Non-human mammals",
+    "Reptiles/Birds",
+    "Amphibians",
+    "Fish",
+    "Invertebrates",
+    "Fungi",
+    "Plants",
+    "Bacteria"
+  ],
+  "k": 16,
+  "density_method": "logmeanexp",
+  "neighbor_tau": 0.03,
+  "conditional_weight": 0.0,
+  "other_reducer": "logmeanexp",
+  "group_tau": 0.01,
+  "output_temperature": 0.01,
+  "shape": [
+    9,
+    4948,
+    1152
+  ]
+}
