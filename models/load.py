@@ -12,6 +12,7 @@ CHECKPOINTS = {
     'humanmpnn_ar_finetuned': 'humanmpnn/ar_finetuned.pt',
     'humanmpnn_mdm_pretrained': 'humanmpnn/mdm_pretrained.pt',
     'humanmpnn_mdm_finetuned': 'humanmpnn/mdm_finetuned.pt',
+    'humanmpnn-ab': 'humanmpnn-ab/ar_finetuned.pt',
 }
 
 
