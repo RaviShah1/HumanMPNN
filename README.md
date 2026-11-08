@@ -50,13 +50,6 @@ Choose a model with `--model`.
 | `humanmpnn_mdm_finetuned` | `weights/humanmpnn/mdm_finetuned.pt` |
 | `humanmpnn-ab` | `weights/humanmpnn-ab/ar_finetuned.pt` |
 
-`humanmpnn-ab` is the best Stage 3 checkpoint from HumanMPNN-Ab v2: autoregressive
-fine-tuning on human-origin paired antibody repertoires, followed by predicted
-and experimental antibody–antigen complexes. Checkpoint provenance is recorded in
-[`weights/humanmpnn-ab/provenance.json`](weights/humanmpnn-ab/provenance.json).
-For an antibody–antigen complex, select only the antibody chains for redesign
-(for example, `--model humanmpnn-ab --design-chains H L`) to keep the antigen fixed.
-
 ## Evaluate designs
 
 - [Immunogenicity score](eval/immunogenicty_score/README.md): lower is better.
